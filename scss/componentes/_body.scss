@@ -144,7 +144,7 @@ h2, h3 {
 p {
     background-color: $color-principal;
     font-family: $fuente-familia-parrafo;
-    font-size: map-get($fuente, smallc);    
+    font-size: map-get($fuente, normal);    
     font-weight: 400;
     letter-spacing: 1px;
     word-spacing: 2px;

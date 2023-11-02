@@ -206,7 +206,7 @@ h2, h3 {
 p {
   background-color: white;
   font-family: "Rubik", sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -607,8 +607,8 @@ header {
 }
 
 .guarde-01 {
-  padding: 10px;
-  margin: 2%;
+  padding: 7px;
+  margin: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -618,7 +618,7 @@ header {
 }
 
 .guarde-txta {
-  width: 50%;
+  width: 40%;
   margin: 10px;
   overflow: auto;
 }
@@ -704,6 +704,7 @@ header {
 .guard-list li {
   background-color: white;
   font-family: "Rubik", sans-serif;
+  font-size: 20px;
   font-weight: 400;
   padding: 3px 30px;
   margin: 15px 100px;
@@ -778,7 +779,7 @@ header {
   }
   .guard-list li {
     background-color: white;
-    font-size: 15px;
+    font-size: 17px;
     padding: 3px;
     margin: 15px;
   }
@@ -1041,11 +1042,10 @@ header {
 }
 
 .pelu-cita p {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #carouselExample {
-  background-color: orange;
   width: 35%;
   height: auto;
   margin: 2% 33%;

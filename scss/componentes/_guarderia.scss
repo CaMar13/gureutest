@@ -8,7 +8,7 @@
 }
 
 .guarde-01 {
-    @include box-estilo (10px, 02%);
+    @include box-estilo (07px, 01%);
     @include flex(center, center);
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,7 +16,7 @@
 }
 
 .guarde-txta {
-    width: 50%;
+    width: 40%;
     margin: 10px;
     overflow: auto;
 }
@@ -86,8 +86,9 @@
     align-content: baseline;
     overflow: auto;
     li {
-        background-color: white;
-        font-family: 'Rubik', sans-serif;
+        background-color: $color-principal;
+        font-family: $fuente-familia-parrafo;
+        font-size: map-get($fuente, normal);    
         font-weight: 400;
         padding: 03px 30px;
         margin: 15px 100px;
@@ -175,7 +176,7 @@
         padding: 02px;
         li {
             background-color: white;
-            font-size: map-get($fuente, smallb);
+            font-size: map-get($fuente, smallc);
             padding: 03px;
             margin: 15px;
         }

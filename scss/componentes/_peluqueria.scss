@@ -72,11 +72,10 @@
 }
 
 .pelu-cita p {
-    font-size: map-get($fuente, largeb);
+    font-size: map-get($fuente, normal);
 }
 
 #carouselExample {
-    background-color: orange;
     width: 35%;
     height: auto;
     margin: 02% 33%;
