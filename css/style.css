@@ -1044,12 +1044,11 @@ header {
   font-size: 24px;
 }
 
-/*--------** Seccion: Galeria de imagenes-------------*/
 #carouselExample {
-  width: 60%;
+  background-color: orange;
+  width: 35%;
   height: auto;
-  max-width: 100%;
-  margin: 1% 20%;
+  margin: 2% 33%;
 }
 
 /* PANTALLAS TABLET */
@@ -1067,6 +1066,12 @@ header {
   }
   .spa-imgB {
     margin: 1%;
+  }
+  #carouselExample {
+    background-color: orange;
+    width: 43%;
+    height: auto;
+    margin: 2% 30%;
   }
 }
 /* PANTALLA CELULAR */
@@ -1107,10 +1112,10 @@ header {
     margin: 3% 4%;
   }
   #carouselExample {
-    width: 96%;
+    background-color: orange;
+    width: 90%;
     height: auto;
-    max-width: 100%;
-    margin: 3% 2%;
+    margin: 2% 5%;
   }
 }
 /*---------------------------

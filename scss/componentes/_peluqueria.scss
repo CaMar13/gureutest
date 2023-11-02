@@ -75,11 +75,11 @@
     font-size: map-get($fuente, largeb);
 }
 
-				/*--------** Seccion: Galeria de imagenes-------------*/
 #carouselExample {
-    @include box-tamano (60%, auto);
-    max-width: 100%;
-    margin: 01% 20%;
+    background-color: orange;
+    width: 35%;
+    height: auto;
+    margin: 02% 33%;
 }
 
 
@@ -102,6 +102,13 @@
 
     .spa-imgB {
         margin: 01%;
+    }
+
+    #carouselExample {
+        background-color: orange;
+        width: 43%;
+        height: auto;
+        margin: 02% 30%;
     }
 }
 
@@ -146,8 +153,9 @@
     }
 
     #carouselExample {
-        @include box-tamano (96%, auto);
-        max-width: 100%;
-        margin: 03% 02%;
+        background-color: orange;
+        width: 90%;
+        height: auto;
+        margin: 02% 05%;
     }
 }
