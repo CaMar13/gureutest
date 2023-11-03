@@ -44,9 +44,8 @@
 				border-style: solid;
 				border-width: 1px;
 				border-color: $color-cinco;
-				margin-top: 10px;
+				margin: 10px 0px 20px 0px;
 				padding-left: 10px;
-				margin-bottom: 20px;
 			}
 			textarea {
 				background-color: $color-cuatro;
@@ -56,7 +55,7 @@
 				border-radius: 5px;
 				border-style: solid;
 				border-width: 1px;
-				border-color: blak;
+				border-color: $color-cinco;
 			}
 		}
 	}
@@ -103,7 +102,6 @@
 
     .contaOpciones {
         ion-icon {
-            background-color: violet;
             margin: 01px;
             font-size: 30px;
         }
@@ -113,15 +111,13 @@
         }
     }
 
-
-
     .cont-img img {
         padding: 20px;
     }
 
     form {
-        @include box-tamano (99%, auto);
-        @include box-estilo (02px, 02px);
+        @include box-tamano (100%, auto);
+        @include box-estilo (02px, 01px);
     }
     .formu-con {
         ul {
@@ -129,17 +125,20 @@
                 input {
                     width: 98%;
                     max-width: 100%;
+                    margin: 04px 03px;
                 }
                 textarea {
                     width: 98%;
                     max-width: 100%;
+                    margin: 04px 03px;
                 }
             }
         }
     }
     .listaFormulario {
-        @include box-tamano (98%, auto);
+        @include box-tamano (99%, auto);
         max-width: 100%;
+        padding: 02px
     }
 
     .mapa {
@@ -151,9 +150,9 @@
             margin: 2%;
         }
         iframe {
-            @include box-tamano (97%, auto);
-            padding: auto;
             max-width: 100%;
+            margin: 02px 03px;
+            padding: auto;
         }
     }
 }

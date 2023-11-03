@@ -90,8 +90,8 @@
         font-family: $fuente-familia-parrafo;
         font-size: map-get($fuente, normal);
         font-weight: 400;
-        padding: 03px 30px;
-        margin: 15px 100px;
+        padding: 03px 20px;
+        margin: 07px 100px;
     }
 }
 
@@ -141,8 +141,9 @@
     }
 
     .guaA, .guaB, .guaC, .guaD {
-        @include box-tamano (90%, auto);
+        width: 85%;
         max-width: 100%;
+        margin: 03px 10px;
     }
     
 

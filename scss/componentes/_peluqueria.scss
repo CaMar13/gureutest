@@ -53,8 +53,8 @@
     font-family: $fuente-familia-parrafo;
     font-size: map-get($fuente, normal);
     font-weight: 400;
-    padding: 03px 30px;
-    margin: 15px 100px;
+    padding: 03px 20px;
+    margin: 07px 100px;
 }
 
 .spa-imgB {
@@ -66,9 +66,9 @@
 
 				/*--------** Seccion: Recordatorio final de que se debe reservar una cita-------------*/
 .pelu-cita {
-    @include box-tamano (70%, auto);
+    @include box-tamano (50%, auto);
     padding: 03px;
-    margin: 06% 15%;
+    margin: 02% 30%;
 }
 
 #carouselExample {

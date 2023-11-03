@@ -31,9 +31,13 @@
   width: 30%;
   height: 20%;
   padding: 5px;
-  margin: 10px 0px 20px 0px;
+  margin: 10px 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
   border-color: black;
-  border-style: solid;
+  border-style: none;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -44,7 +48,7 @@
 }
 #enviar p {
   background-color: rgb(173, 241, 173);
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /*--------** BOTON FORMULARIO CONTACTO-------------*/
@@ -53,13 +57,12 @@
 }
 #borrar p {
   background-color: rgb(221, 127, 127);
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /*--------** BOTON CARDS PAGINA INICIO-------------*/
 .btn-secu {
   background-color: #F787D0;
-  text-decoration: none;
   width: auto;
   height: auto;
 }
@@ -174,7 +177,7 @@ footer {
 h1 {
   background-color: white;
   font-family: "Mooli", sans-serif;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 400;
   text-align: center;
   padding: 1%;
@@ -193,7 +196,7 @@ h2, h3 {
   font-size: 24px;
   font-weight: 400;
   text-align: center;
-  padding: 5px;
+  padding: 2px;
   margin: 2%;
 }
 
@@ -206,7 +209,7 @@ h2, h3 {
 p {
   background-color: white;
   font-family: "Rubik", sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -216,7 +219,7 @@ p {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   p {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -425,14 +428,14 @@ ion-icon {
     display: flex;
     flex-direction: row;
     position: static;
-    margin: 5px 100px;
+    margin: 5px 40%;
   }
   ion-icon {
     text-align: center;
     font-size: 30px;
     color: #000;
     padding: 2px;
-    margin: 0px 7px;
+    margin: 3px 7px;
     border-radius: 8PX;
   }
 }
@@ -443,7 +446,7 @@ ion-icon {
 .inicio {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
 }
 
 .inicioA {
@@ -479,7 +482,7 @@ ion-icon {
 .ini-servicios {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   height: auto;
 }
 
@@ -492,10 +495,6 @@ ion-icon {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
-}
-
-.card {
-  border-radius: 24px;
 }
 
 .card-body {
@@ -511,14 +510,14 @@ ion-icon {
 .staffA {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   display: flex;
   flex-direction: column;
 }
 
 .staffTexto {
   padding: 5px;
-  margin: 20px;
+  margin: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -603,7 +602,7 @@ header {
 .guarderiaInicio {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
 }
 
 .guarde-01 {
@@ -637,7 +636,7 @@ header {
 .guarde-02 {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -704,10 +703,10 @@ header {
 .guard-list li {
   background-color: white;
   font-family: "Rubik", sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
-  padding: 3px 30px;
-  margin: 15px 100px;
+  padding: 3px 20px;
+  margin: 7px 100px;
 }
 
 /* PANTALLAS TABLET */
@@ -728,7 +727,7 @@ header {
     margin: 10px;
   }
   .guard-list li {
-    font-size: 20px;
+    font-size: 19px;
     margin: 15px 30px;
   }
 }
@@ -747,9 +746,9 @@ header {
     height: auto;
   }
   .guaA, .guaB, .guaC, .guaD {
-    width: 90%;
-    height: auto;
+    width: 85%;
     max-width: 100%;
+    margin: 3px 10px;
   }
   .guarde-02 {
     padding: 2px;
@@ -798,7 +797,7 @@ header {
 .hospe-ini {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -825,7 +824,7 @@ header {
 .hospe-que {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -861,7 +860,7 @@ header {
 .hospe-cita {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -908,11 +907,6 @@ header {
     max-width: 100%;
     margin: 6px;
   }
-  .hospe-ini {
-    width: 95%;
-    padding: 2px;
-    margin: 6px;
-  }
   .hospeini-txt {
     width: 97%;
     margin: 1px;
@@ -957,7 +951,7 @@ header {
 .spa-ini {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -992,7 +986,7 @@ header {
 .pelu-list {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   padding: 2px;
   display: flex;
   justify-content: center;
@@ -1018,10 +1012,10 @@ header {
 .spa-listB li {
   background-color: white;
   font-family: "Rubik", sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
-  padding: 3px 30px;
-  margin: 15px 100px;
+  padding: 3px 20px;
+  margin: 7px 100px;
 }
 
 .spa-imgB {
@@ -1035,10 +1029,10 @@ header {
 
 /*--------** Seccion: Recordatorio final de que se debe reservar una cita-------------*/
 .pelu-cita {
-  width: 70%;
+  width: 50%;
   height: auto;
   padding: 3px;
-  margin: 6% 15%;
+  margin: 2% 30%;
 }
 
 #carouselExample {
@@ -1129,7 +1123,7 @@ header {
 .contac-info {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   padding: 1px;
   display: flex;
   justify-content: center;
@@ -1143,7 +1137,7 @@ header {
 .formu-con {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   padding: 2px;
   display: flex;
   justify-content: center;
@@ -1166,9 +1160,8 @@ header {
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  margin-top: 10px;
+  margin: 10px 0px 20px 0px;
   padding-left: 10px;
-  margin-bottom: 20px;
 }
 .formu-con ul div textarea {
   background-color: whitesmoke;
@@ -1179,7 +1172,7 @@ header {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: blak;
+  border-color: black;
 }
 
 .listaFormulario {
@@ -1190,7 +1183,7 @@ header {
 .mapa {
   width: 97%;
   max-width: 100%;
-  margin: 1% 2%;
+  margin: 10px 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1219,7 +1212,6 @@ header {
     width: 100%;
   }
   .contaOpciones ion-icon {
-    background-color: violet;
     margin: 1px;
     font-size: 30px;
   }
@@ -1231,23 +1223,26 @@ header {
     padding: 20px;
   }
   form {
-    width: 99%;
+    width: 100%;
     height: auto;
     padding: 2px;
-    margin: 2px;
+    margin: 1px;
   }
   .formu-con ul div input {
     width: 98%;
     max-width: 100%;
+    margin: 4px 3px;
   }
   .formu-con ul div textarea {
     width: 98%;
     max-width: 100%;
+    margin: 4px 3px;
   }
   .listaFormulario {
-    width: 98%;
+    width: 99%;
     height: auto;
     max-width: 100%;
+    padding: 2px;
   }
   .mapa {
     width: 98%;
@@ -1260,10 +1255,9 @@ header {
     margin: 2%;
   }
   .mapa iframe {
-    width: 97%;
-    height: auto;
-    padding: auto;
     max-width: 100%;
+    margin: 2px 3px;
+    padding: auto;
   }
 }
 
