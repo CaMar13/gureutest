@@ -36,17 +36,18 @@
 }
 
 .contenedorCards {
-    @include box-estilo (03px, 03px);
+    @include box-estilo (03px, 01px);
     @include flex(center, stretch);
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 17px;
 }
 
 
 .card-body {
+    width: 99%;
+    max-width: 100%;
     font-size: map-get($fuente, smallc);
-    padding: 03px;
     @include flex( none, baseline);
     flex-direction: column;
 }

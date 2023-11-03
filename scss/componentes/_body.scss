@@ -148,7 +148,7 @@ p {
     font-weight: 400;
     letter-spacing: 1px;
     word-spacing: 2px;
-    @include box-estilo (10px, 05px);
+    @include box-estilo (07px, 04px);
 }
 // PANTALLAS TABLET //
 @media screen and (min-width: 768px) and (max-width: 1023px) {
