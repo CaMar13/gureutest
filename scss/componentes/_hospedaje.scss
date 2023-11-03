@@ -119,9 +119,9 @@
         padding: 02px;
     }
     
-    .hospe-queimg {
-        @include box-tamano (88%, auto);
-        margin: 02px;
+    .hospe-queimg img {
+        max-width: 100%;
+        margin: 03px 01px;
     }
 
     .hospe-cita {

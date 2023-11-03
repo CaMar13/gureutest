@@ -35,27 +35,29 @@ ion-icon {
 /* PANTALLA CELULAR */
 @media screen and (min-width: 320px) and (max-width: 767px) {
     #redesSociales {
-        @include box-tamano (99%, auto);
-        max-width: 100%;
-        margin: 03px;
+        @include box-tamano (97%, 60px);
         padding: 02px;
         position: static;
-    }
-    
-    .social {
-        width: 100px;
-        display: flex;
-        flex-direction: row;
-        position: static;
-        margin: 5px 40%;
-    }
-    
-    ion-icon {
-        text-align: center;
-        font-size: 30px;
-        color: #000;
-        padding: 02px;
-        margin: 03px 07px;
-        border-radius: 8PX;
+        margin: 04px 02px;
+        .social {
+            width: 35%;
+            max-width: 100%;
+            height: auto;
+            padding: 02px;
+            margin: 01px 36%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            position: static;
+            a {
+                ion-icon {
+                    text-align: center;
+                    font-size: 34px;
+                    color: #000;
+                    margin: 01px 07px;
+                    border-radius: 8PX;
+                }
+            }
+        }
     }
 }
