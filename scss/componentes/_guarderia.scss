@@ -141,9 +141,10 @@
     }
 
     .guaA, .guaB, .guaC, .guaD {
-        width: 85%;
+        width: 87%;
         max-width: 100%;
-        margin: 03px 10px;
+        height: auto;
+        margin: 04px 2px;
     }
     
 
@@ -157,9 +158,9 @@
     }
 
     .guarde-imgb img {
-        @include box-tamano (57%, auto);
+        @include box-tamano (97%, auto);
         max-width: 100%;
-        margin: 01% 20%;
+        margin: 01% 02%;
     }
 
     .guarde-extra {
@@ -176,7 +177,6 @@
         margin: 02px 01px;
         padding: 02px;
         li {
-            background-color: white;
             font-size: map-get($fuente, smallc);
             padding: 03px;
             margin: 15px;

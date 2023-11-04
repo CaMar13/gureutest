@@ -11,23 +11,24 @@
 	right: -130px;
 	top: 230px;
 	z-index: 1100;
+    .social {
+        @include box-tamano (41px, 43px);
+        position: fixed;
+        right: 0;
+        float: left;
+        margin: 5px 4px;
+        top: 50%;
+        padding: 0px;
+        cursor: pointer;
+    }
 }
-.social {
-    @include box-tamano (41px, 43px);
-	position: fixed;
-	right: 0;
-	float: left;
-	margin: 5px 4px;
-	top: 50%;
-	padding: 0px;
-	cursor: pointer;
-}
+
 
 ion-icon {
 	font-size: 40px;
-	color: black;
+	color: $color-cinco;
 	padding: 01px;
-	background: #83d7d0;
+	background: $color-tres;
 	border-radius: 8PX;
 }
 
@@ -53,9 +54,7 @@ ion-icon {
                 ion-icon {
                     text-align: center;
                     font-size: 34px;
-                    color: #000;
                     margin: 01px 07px;
-                    border-radius: 8PX;
                 }
             }
         }

@@ -142,8 +142,7 @@
     }
 
     .mapa {
-        @include box-tamano (98%, auto);
-        margin: 01%;
+        @include box-tamano (96%, auto);
         h2 {
             width: 97%;
             max-width: 100%;
