@@ -134,7 +134,7 @@ footer {
   width: 99%;
   height: 3%;
   max-width: 100%;
-  padding: 3px;
+  padding: 7px;
   margin: 1px;
 }
 
@@ -197,7 +197,7 @@ h2, h3 {
   font-weight: 400;
   text-align: center;
   padding: 2px;
-  margin: 2%;
+  margin: 1%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -516,7 +516,7 @@ ion-icon {
 }
 
 .staffTexto {
-  padding: 5px;
+  padding: 3px;
   margin: 7px;
   display: flex;
   justify-content: center;
@@ -649,7 +649,7 @@ header {
 
 .guarde-txtb {
   width: 50%;
-  margin: 10px;
+  margin: 7px;
 }
 
 .guarde-imgb {
@@ -666,7 +666,7 @@ header {
 
 /*--------** Seccion: Informacion extra sobre el beneficio de las guarderias -------------*/
 .guarde-extra {
-  margin: 3% 2%;
+  margin: 1% 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -881,6 +881,9 @@ header {
   align-content: baseline;
   overflow: auto;
 }
+.hospe-citatxt p {
+  background-color: rgb(242, 212, 226);
+}
 
 .hospe-citaimg {
   margin: 3px;
@@ -987,6 +990,7 @@ header {
   max-width: 100%;
   margin: 10px 2%;
   padding: 2px;
+  margin: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1030,8 +1034,11 @@ header {
 .pelu-cita {
   width: 50%;
   height: auto;
-  padding: 3px;
-  margin: 2% 30%;
+  padding: 4px;
+  margin: 2% 29%;
+}
+.pelu-cita p {
+  background-color: rgb(242, 212, 226);
 }
 
 #carouselExample {
@@ -1057,7 +1064,6 @@ header {
     margin: 1%;
   }
   #carouselExample {
-    background-color: orange;
     width: 43%;
     height: auto;
     margin: 2% 30%;

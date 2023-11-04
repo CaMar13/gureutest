@@ -61,7 +61,7 @@
 }
 
 .staffTexto {
-    @include box-estilo (05px, 07px);
+    @include box-estilo (03px, 07px);
     @include flex(center, center);
     flex-flow: column wrap;
     align-content: baseline;

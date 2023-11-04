@@ -67,6 +67,9 @@
     flex-wrap: wrap;
     align-content: baseline;
     overflow: auto;
+    p {
+        background-color: rgb(242, 212, 226);
+    }
 }
 
 .hospe-citaimg {

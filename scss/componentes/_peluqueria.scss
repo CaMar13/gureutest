@@ -32,6 +32,7 @@
 .pelu-list {
     @include medida-seccion;
     padding: 02px;
+    margin: 02%;
     @include flex(center, center);
     flex-direction: row;
     flex-wrap: wrap;
@@ -67,8 +68,11 @@
 				/*--------** Seccion: Recordatorio final de que se debe reservar una cita-------------*/
 .pelu-cita {
     @include box-tamano (50%, auto);
-    padding: 03px;
-    margin: 02% 30%;
+    padding: 04px;
+    margin: 02% 29%;
+    p {
+        background-color: rgb(242, 212, 226);
+    }
 }
 
 #carouselExample {
@@ -100,7 +104,6 @@
     }
 
     #carouselExample {
-        background-color: orange;
         width: 43%;
         height: auto;
         margin: 02% 30%;

@@ -67,7 +67,7 @@ main {
 footer {
     @include box-tamano (99%, 03%);
     max-width: 100%;
-    @include box-estilo (03px, 01px);
+    @include box-estilo (07px, 01px);
 }
 /* Seccion: Copyright */
 .copy p {
@@ -132,7 +132,7 @@ h2, h3 {
     font-size: map-get($fuente, largeb);
     font-weight: 400;
     text-align: center;
-    @include box-estilo (02px, 02%);
+    @include box-estilo (02px, 01%);
 }
 // PANTALLAS CELULAR //
 @media screen and (min-width: 320px) and (max-width: 767px) { 
